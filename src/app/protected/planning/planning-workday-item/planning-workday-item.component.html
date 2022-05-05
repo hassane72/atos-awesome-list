@@ -1,0 +1,10 @@
+<div class="card border-light mt-3">
+  <div class="card-header">
+    {{currentWorkDay.dueDate}}
+    <i class="material-icons md-grey float-end" (click)="removeWorkday(currentWorkDay.dueDate)">close</i>
+  </div>
+  <div class="card-body">
+    <p>Tâches restantes: <strong>{{currentWorkDay.remainingTasks}}</strong></p>
+    <p>Tâches effectuées: <strong>{{currentWorkDay.doneTasks}}</strong></p>
+  </div>
+</div>

@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyDzrNhvvV8wQBtqoWywzhH7lNY8-s_o7go",
+    authDomain: "atos-awesome-list.firebaseapp.com",
+    databaseURL: "https://atos-awesome-list-default-rtdb.firebaseio.com",
+    projectId: "atos-awesome-list",
+    storageBucket: "atos-awesome-list.appspot.com",
+    messagingSenderId: "517640737103",
+    appId: "1:517640737103:web:b9941dd2e6e0d4ec75f53a",
+    measurementId: "G-31DY0MRXKL"
+  }
 };
 
 /*
